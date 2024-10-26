@@ -37,3 +37,21 @@ Step 7 -- If you need to change the branch name to main then use command
 *git branch -M main --This command change the branch name from master to main
 
 Step 8 -- Now you can use the usual commands and work on it....!!
+
+***Steps for adding a new branch***
+Step 1 -- create a new branch in the github,after creating the files in the main branch will be copied in the newly created branch 
+
+Step 2 -- Now we can use the newly created branch in the vs code using command 
+*git checkout branch name -- Open the new branch in the vs code 
+
+Step 3 -- Then we can make anything in this branch!!!
+
+--- Note : The changes in new branch will not reflected in the Main branch ---
+
+***Steps for merging the new branch to main branch***
+
+Step 1 -- Now we can merge the new branch with the main branch using command 
+*git merge new branch name
+
+--- Note : This command must be executed in the main branch---
+<<---Some other branch commands are in the command.txt file---->>

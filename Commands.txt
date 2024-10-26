@@ -18,9 +18,18 @@ For converting a folder into git folder -->
 For creating a new origin to the local folder to repository-->
 *git remote add origin "Link of the repository" -- Now our origin is created
 
+For creating a new branch -->
+*git branch branch name
+
 For displaying branches-->
-*git branch --This command displays the branches in your repository
+*git branch -a --This command displays the branches in your repository
 
 For renaming the branch-->
 *git branch -M main --This command change the branch name from master to main
+
+For display the diff in the branches -->
+*git diff branch name
+
+
+
 
