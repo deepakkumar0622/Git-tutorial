@@ -1,3 +1,5 @@
+****Steps for adding file from existing repository in GITHUB****
+
 Step 1 - Open cmd add your username and email 
 * git config --global user.name "username"
 * git config --global user.email "abc@gmail.com"
@@ -8,3 +10,30 @@ Step 3 - Clone your git repository in that folder
 *git clone "Link of the repository"
 
 Step 4 - Then do your own stuffs and follow the commands in the "Commands.txt"
+
+
+***Steps for adding Our local folder files into a new repository in git***
+
+Step 1 -- Asusual create our folder in your local system 
+
+Step 2 -- Open in vs code and add our files in the folders
+
+Step 3 -- Now first change the local folder into git folder by using command
+*git init --It initialize the folder into git folder
+
+Step 3 -- Then same steps use the add command and the files and commit it 
+
+Step 4 -- Changes occurs from this step we cant use the same origin command here because we don't declare any origin link here so first we need to declare our origin
+          for that we need to create a new repository in the github.
+
+Step 5 --  Now after creating copy the link of the repository then use the command 
+*git remote add origin "Link of the repository" -- Now our origin is created
+
+Step 6 -- Now use command 
+*git branch --This command displays the branches in your repository
+---Note : In default the git will create the branch name as "master"--
+
+Step 7 -- If you need to change the branch name to main then use command 
+*git branch -M main --This command change the branch name from master to main
+
+Step 8 -- Now you can use the usual commands and work on it....!!
