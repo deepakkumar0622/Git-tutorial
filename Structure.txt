@@ -1,5 +1,8 @@
 Git structure
 -----------------------!!
 Git repository --> local git folder --> working folder 
+--->Git repository -- The main repository in the github.
+--->local git folder -- The dummy folder where the commited data stored.
+--->Working folder -- The folder we works and changes we can make in it.
 ------------------------!!
 Layer --> staging area--The area where the added file will be stored before commit.
