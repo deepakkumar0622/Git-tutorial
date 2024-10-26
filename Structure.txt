@@ -1,0 +1,5 @@
+Git structure
+-----------------------!!
+Git repository --> local git folder --> working folder 
+------------------------!!
+Layer --> staging area--The area where the added file will be stored before commit.
