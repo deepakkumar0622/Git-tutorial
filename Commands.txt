@@ -1,9 +1,26 @@
-For status --->git status 
+For status --->
+*git status 
+For cloning our repository to folder-->
+*git clone "repository link"
+
 For adding file --> 
 *git add file name - get the file to staging area
 *git commit -m"message" - commit the file to local git folder
 *git push origin main - push the changes to the git repository 
 
 
-For adding multiple files
+For adding multiple files-->
 *git add . -->get all the untracked files into the staging area
+
+For converting a folder into git folder -->
+*git init --It initialize the folder into git folder
+
+For creating a new origin to the local folder to repository-->
+*git remote add origin "Link of the repository" -- Now our origin is created
+
+For displaying branches-->
+*git branch --This command displays the branches in your repository
+
+For renaming the branch-->
+*git branch -M main --This command change the branch name from master to main
+
