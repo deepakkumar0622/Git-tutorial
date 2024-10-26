@@ -1,0 +1,10 @@
+Step 1 - Open cmd add your username and email 
+* git config --global user.name "username"
+* git config --global user.email "abc@gmail.com"
+
+Step 2 - create your local folder in the pc and open it in vs code 
+
+Step 3 - Clone your git repository in that folder 
+*git clone "Link of the repository"
+
+Step 4 - Then do your own stuffs and follow the commands in the "Commands.txt"
