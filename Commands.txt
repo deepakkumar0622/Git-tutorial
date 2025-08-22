@@ -8,7 +8,6 @@ For adding file -->
 *git commit -m"message" - commit the file to local git folder
 *git push origin main - push the changes to the git repository 
 
-
 For adding multiple files-->
 *git add . -->get all the untracked files into the staging area
 
